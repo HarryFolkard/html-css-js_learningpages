@@ -38,13 +38,13 @@ function b () {
 }
 
 a();
-/*so when we execute a(); the function a creates its own scope 
+/*
+- when we execute a(); the function a creates its own scope 
 and we defined its own message in that scope, so that message is what is printed 
 (even though we called a() globally).
 when we call b() it has no message in its own scope, hence the computer looks in its outer scope (global)
 and so we get the variable message from the global scope: message = "in global" instead.
-
-if we defined function b inside function a, then b's outer reference is a's variable scope, so 
+- if we defined function b inside function a, then b's outer reference is a's variable scope, so 
 b(); will execute the message = "inside a".*/
 
 /*Types*/
@@ -58,3 +58,6 @@ js has seven built in types*/
     /*Boolean (true or false); Undefined (sets up variable in memory but sets value as 'undefined'); 
     Null (lack of value); Number (only numeric type in js always double-precision 64 bit); String
     (sequence of characters, use "" or ''); Symbol (this is new).*/
+    var x; 
+    /*== undefined. note that undefined and not defined are two different things!! here x has been declared but has no value,
+    so it is undefined. if the variable had never been declared it would be not defined.*/
