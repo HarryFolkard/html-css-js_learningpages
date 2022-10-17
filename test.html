@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>harryfolkard</title>
+  <link rel="stylesheet" href="test.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+<h1>Harry Folkard</h1>
+
+<header>
+    <ul class="topnav">
+        <li><a href="#index">Home</a></li>
+        <li><a href="#econ">About</a></li>
+        <li><a href="#alevel">Other</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+</header>
+
+<h2>Lists</h2>
+<ul>
+    <li>This is</li>
+    <li>How you</li>
+    <li>Make an</li>
+    <li>Unordered List</li>
+    <li>Inside
+        <ul>
+            <li>Of an</li>
+            <li>Unordered list</li>
+        </ul>
+    </li>
+    <li>WOW!</li>
+</ul>
+
+<ol>
+    <li>This is</li>
+    <li>How you</li>
+    <li>Make an</li>
+    <li>Ordered List</li>
+    <li>Inside
+        <ol>
+            <li>Of an</li>
+            <li>Ordered list</li>
+        </ol>
+    </li>
+    <li>WOW!</li>
+</ol>
+
+<h2>Character Entity References</h2>
+<p>
+    3 Characters you always need to escape: <, >, &. 
+    To do so use: "&lt;", "&gt;", and "&amp;". Also we might need &copy; and &OpenCurlyQuote;, &CloseCurlyQuote;.<br>
+    To stop some stuff wrapping (so it is always on the same line) write with &nbsp;this&nbsp;must&nbsp;all&nbsp;wrap&nbsp;together.<br>
+
+</p>
+
+<h2>Creating Links</h2>
+<h3>Internal Links</h3>
+
+We have an inline tag here:
+<a href="test.html" title="Homepage">Click for Homepage.</a>
+
+But we can have a block level tag here:
+<a href="test.html" title="Homepage">
+    <div>
+        Click for Homepage
+    </div>
+</a>
+
+<h3>External Links</h3>
+We have an inline external tag here:
+<a href="http://www.google.com" target="_blank" title="Google">Google</a>.
+Using target="_blank" makes the new page open in a new tab.
+
+<h2>Fragment Identifier</h2>
+<section>
+    <ul>
+        <li><a href="#section1">#section1</a></li>
+        <li><a href="#section2">#section2</a></li>
+    </ul>
+
+</section>
+
+<section id="section1">
+    <h3>Section 1</h3>
+    <p>
+        blah blah blah blah.
+    </p>
+</section>
+
+<section id="section2">
+    <h3>Section 2</h3>
+    <p>
+        blah blah blah blah.
+    </p>
+</section>
+
+<h2>Including Images</h2>
+<img src="https://commons.wikimedia.org/wiki/File:Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg#/media/File:Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg" width=400px height=300px alt="image from web">
+<br>
+<img src="bluewhite.png" width=400px height=300px alt="image from folder">
+
+<h2>Box Model</h2>
+<p id="box">Here is the box, hopefully now we can see the padding, margin, etc.</p>
+<p id="box2">Here is the box2, hopefully now we can see the padding, margin, etc.</p>
+<p id="box3">Here is the box3, hopefully now we can see the padding, margin, etc.</p>
+<p id="box4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, optio! Incidunt qui nesciunt, exercitationem, aperiam sapiente velit deserunt quas recusandae facere error vero animi aliquam laudantium nihil? Possimus, quaerat. Rerum?</p>
+
+<h2>Floating</h2>
+<p id="p1"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+
+<h2 style="clear: both;">Two Columns</h2>
+<p id="p4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et est numquam iure, ea amet obcaecati placeat eligendi neque nisi voluptatum, iste, molestias ipsum dolor deserunt eius rem repudiandae sequi natus!</p>
+<p id="p5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam error eveniet ducimus consectetur culpa reiciendis rerum aperiam quas natus! Maxime amet excepturi enim, ex vel optio minus facilis quis rem?</p>
+
+
+
+</body>
+</html>
