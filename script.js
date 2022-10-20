@@ -50,10 +50,9 @@ b(); will execute the message = "inside a".*/
 /*Types*/
 /*a type is a particular data structure. 
 js has seven built in types*/
-    /*Object Types*/
+  /*Object Types*/
     /*is a collection of name/value pairs.*/
-
-    /*Primitive Types*/
+  /*Primitive Types*/
     /*represents a single, immutable value.*/
     /*Boolean (true or false); Undefined (sets up variable in memory but sets value as 'undefined'); 
     Null (lack of value); Number (only numeric type in js always double-precision 64 bit); String
